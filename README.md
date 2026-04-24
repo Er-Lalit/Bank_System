@@ -3,19 +3,43 @@
 <h1>💳 Banking Management System</h1>
 
 <p>
-  <b>A Java Swing based desktop application for managing customer accounts and banking transactions.</b>
+  <img src="https://img.shields.io/badge/Java-Swing-orange?style=flat-square">
+  <img src="https://img.shields.io/badge/Desktop-App-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/MySQL-Database-green?style=flat-square">
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Java-Swing-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/JDBC-Database-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/MySQL-Storage-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/NetBeans-IDE-1B6AC6?style=for-the-badge">
-</p>
+<h3>
+  A Java Swing based desktop application for managing customer accounts and banking transactions
+</h3>
 
 <p>
   <i>Secure • Simple • Efficient Banking Experience</i>
 </p>
+
+</div>
+
+---
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<b>👨‍💼 Admin Access</b><br>
+Manage customers & transactions
+</td>
+
+<td align="center">
+<b>👤 Customer Access</b><br>
+Perform banking operations
+</td>
+
+<td align="center">
+<b>🔐 Secure System</b><br>
+Validation & transaction safety
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -66,6 +90,7 @@ deposit, withdrawal, balance checking and transaction history tracking.
   <img src="screenshots/customer-register.png" width="400">
 </td>
 </tr>
+
 <tr>
 <td align="center">
   <b>Transaction Dashboard</b><br><br>
