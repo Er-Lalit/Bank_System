@@ -2,48 +2,51 @@
 
 # 💳 Banking Management System
 
-### A Java Swing desktop application for secure banking operations
+### <i>Java Swing Desktop Application for Secure Banking Operations</i>
 
-<img src="screenshots/home.png" width="780"/>
+<img src="screenshots/home.png" width="800"/>
 
-<br>
+<br><br>
 
-<img src="https://img.shields.io/badge/Java-Core-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/JDBC-Database-green?style=for-the-badge">
-<img src="https://img.shields.io/badge/MySQL-Storage-005C84?style=for-the-badge">
-<img src="https://img.shields.io/badge/NetBeans-IDE-1B6AC6?style=for-the-badge">
+<img src="https://img.shields.io/badge/Java-Core-orange?style=flat-square">
+<img src="https://img.shields.io/badge/Swing-GUI-blue?style=flat-square">
+<img src="https://img.shields.io/badge/JDBC-Database-green?style=flat-square">
+<img src="https://img.shields.io/badge/MySQL-005C84?style=flat-square">
+<img src="https://img.shields.io/badge/NetBeans-IDE-1B6AC6?style=flat-square">
 
 </div>
 
 ---
 
-## 🏦 About Project
+## 📌 Overview
 
-**Banking Management System** is a desktop-based banking application built using **Java Swing, JDBC, and MySQL**.
+Banking Management System is a **Java-based desktop application** built using  
+**Core Java, Swing, JDBC, and MySQL**.
 
-It provides separate access for **Admin** and **Customer**, where users can register, login, deposit money, withdraw money, check balance, and view transaction history.
+It allows users to perform essential banking operations such as  
+account management, transactions, and record tracking.
 
 ---
 
-## ✨ Project Highlights
+## ✨ Features
 
 <table>
 <tr>
-<td width="50%">
+<td>
 
-### 👨‍💼 Admin Side
+### 👨‍💼 Admin
 - Admin Login  
-- Admin Dashboard  
+- Admin Panel  
 - View Customer Details  
-- View Transaction Records  
+- View Transactions  
 
 </td>
-<td width="50%">
 
-### 👤 Customer Side
-- Customer Registration  
-- Customer Login  
+<td>
+
+### 👤 Customer
+- Registration  
+- Login  
 - Deposit Money  
 - Withdraw Money  
 - Check Balance  
@@ -55,21 +58,7 @@ It provides separate access for **Admin** and **Customer**, where users can regi
 
 ---
 
-## 🧭 Application Journey
+## 🧭 Application Flow
 
 ```text
-🏠 Home
-   ├── 👨‍💼 Admin
-   │      ├── 🔐 Admin Login
-   │      ├── 📊 Admin Panel
-   │      ├── 👥 Customer Details
-   │      └── 📜 Transaction Details
-   │
-   └── 👤 Customer
-          ├── 📝 Register
-          ├── 🔑 Login
-          ├── 💼 Transaction Dashboard
-          ├── 💰 Deposit
-          ├── 💸 Withdrawal
-          ├── 📊 Balance Check
-          └── 📜 History
+Home → Admin / Customer → Login → Dashboard → Operations
