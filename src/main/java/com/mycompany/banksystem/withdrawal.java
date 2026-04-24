@@ -121,6 +121,15 @@ public class withdrawal extends javax.swing.JFrame {
             if(rs.next())
             {
                 pre_balance=rs.getDouble("balance");
+                double withdrawAmout=Double.parseDouble(amount.getText());
+                if(withdrawAmout>pre_balance)
+                {
+                     JOptionPane.showMessageDialog(
+                    null,
+                    "Entered amount is greater than current balance"
+                );
+                return;
+                }
                 
             }
             else{
